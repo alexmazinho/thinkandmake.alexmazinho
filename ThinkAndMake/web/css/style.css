@@ -1,0 +1,364 @@
+@CHARSET "UTF-8";
+/* CSS reset */
+* { margin: 0; padding: 0px; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: "Helvetica Neue Light", helvetica, arial, sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none; margin: 0;  padding: 0;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*
+
+Las tipografías son: 
+TITULARES: Helvética Ligth y Black	--> "Helvetica Neue Light" "Helvetica Neue Black"
+TEXTO: Copperlate Light minúsculas  --> "Copperplate Gothic Light"
+
+http://web.forret.com/tools/color.asp
+GENERAL: C=0 M=100 Y=70 K=72 ? 27		#BA0038 (original)	#BB0033 (websafe) --> PDF 960b26
+INTERIOR CUADRADITOS pág. 10: C=0 M=21 Y=5 K=0		#FFC9F2  #FFCCEE (websafe)	--> PDF fccadc
+GRISES: K=30							#B2B2B2 (original) #AAAAAA (websafe)
+
+*/
+
+h1 { font-size: 2.3em; font-weight: bold; line-height: 1.7em;  text-transform: lowercase; color: #960b26; }
+h2 { font-size: 1.8em; line-height: 1.5em; color: #333333; }
+p, ul, li { line-height: 1.3em; font-family: 'Copperplate Gothic Light', georgia, serif;  }
+
+#home-page {
+	background-color: #960b26; 
+	color: #ffffff;
+}
+#home-page img {
+	opacity:0;
+}
+
+/* body#home-page {
+	opacity:1;
+	transition: opacity 2s;
+	-moz-transition: opacity 2s;
+	-webkit-transition: opacity 2s; Safari
+} */
+
+#main .section {
+	text-align: center;
+	/*position: relative;*/
+	position: relative;
+}
+
+.title-featured {
+	font-family: "Helvetica Neue Black", helvetica, arial, sans-serif;
+	font-weight: bold;
+}
+
+/*
+ *  Footer  
+ */
+
+
+#lang-switcher {
+	text-align: right;
+	font-size: 0.9em;
+	line-height: 1em;
+	font-weight: normal;
+}
+#lang-switcher-home {
+	text-align: right;
+	font-size: 0.8em;
+	line-height: 1.1em;
+	font-weight: bold;
+}
+
+#lang-switcher a,
+#lang-switcher-home a {
+	display: block;
+	color: #888888;
+	transition: color .30s ease-in-out;
+   	-moz-transition: color .30s ease-in-out;
+   	-webkit-transition: color .30s ease-in-out;
+}
+
+#lang-switcher a.current-lang,
+#lang-switcher a:hover { color: #000000; }
+#lang-switcher a.current-lang:hover { color: #888888; }
+
+#lang-switcher .lang-menu,
+#lang-switcher-home .lang-menu {
+	padding: 0 20px 0 10px;
+	display: inline-block;
+}
+
+#lang-switcher .lang-menu-left { border-right: 2px solid #aaaaaa; }
+
+#lang-switcher-home a { color: #ffffff; }
+#lang-switcher-home a:hover { color: #aaaaaa; }
+#lang-switcher-home .lang-menu-left { border-right: 2px solid #ffffff; }
+
+
+#logo { float:left; }
+
+/*
+ *  Footer  
+ */
+
+#social-bookmarks {
+	text-align: right;
+}
+
+#social-bookmarks a {
+	display: block;
+}
+
+#social-bookmarks .social-icon {
+	display: inline;
+	padding: 0 0 0 6px;
+}
+
+#social-bookmarks .social-icon img {
+	width:35px;
+}
+
+/*
+ *  Menu, estil de la rodona de cada ítem del menú    
+ */
+
+
+.inside-cell {
+	height: 350px;
+    width: 350px;
+    max-width: 350px;
+    max-height: 350px;
+	background-color: #B2B2B2;
+	transition: background .30s ease-in-out;
+   	-moz-transition: background .30s ease-in-out;
+   	-webkit-transition: background .30s ease-in-out;
+	border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.inside-cell:hover {
+	background-color: #960b26;
+	cursor: pointer;
+}
+
+.cell-text {
+	color: #ffffff;
+	font-size: 2.3em;
+	width:100%;
+	display: inline-block;
+}
+
+/*
+ *  Estil de les vistes Text. Rodona vermella gran centrada i paginador   
+ */
+
+
+.outer-cell { 
+	height: 760px;
+    width: 760px;
+    max-width: 760px;
+    max-height: 760px;
+	background-color: #960b26;
+	transition: background .30s ease-in-out;
+   	-moz-transition: background .30s ease-in-out;
+   	-webkit-transition: background .30s ease-in-out;
+	
+	color: #ffffff;
+	border-radius: 50%;
+	margin: auto;
+	/*padding: 9%;*/
+    /*text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    display: inline;*/
+}
+
+.text-cell {
+	text-align: left;
+    display: inline-block;
+    padding: 150px 0 0 120px;
+    width: 100%;
+}
+
+.text-cell-box {
+    padding: 180px 0 0 70px;
+}
+
+.text-cell-contact {
+	padding: 300px 0 0;
+}
+
+h1.text-title {
+	color: #ffffff;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 2.1em;
+    width: 100%;
+    padding: 0 0 20px;
+    line-height: 1.2em;
+}
+
+h1.text-contact-title {
+	color: #ffffff;
+	font-size: 7em;
+	font-weight: normal;
+	text-align: center;
+	line-height: 1.1em;
+	
+}
+
+h1.text-contact-title img {
+	display:inline-block;
+	vertical-align: middle;
+	height: 120px;
+}
+
+h2.text-contact-mail {
+	text-align: center;
+	font-size: 2.4em;
+	line-height: 1em;
+}
+
+h2.text-contact-mail a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.text-content {
+	font-size: 0.8em;
+}
+
+.text-content b  {
+	font-weight: bold;
+	line-height: 1.3em; 
+	font-family: 'Copperplate Gothic Light', georgia, serif; 
+}
+
+ul.text-content {
+	list-style: disc outside none;
+}
+
+ul.text-content li {
+	padding: 0 0 15px;
+	white-space: nowrap;
+}
+
+#image-page .outer-cell img {
+	height: 99%;
+    padding: 0.5%;
+    width: 99%;
+}
+
+#text-boxes {
+	height: 55%;
+	width: 108%;
+	margin: 0 0 0 -4%;
+}
+
+#text-boxes .box-col {
+	width: 29%;
+	height: 100%;
+	padding: 0 1.5%;
+	display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.box-col .box-title {
+	color: #ffffff;
+	font-family: 'Copperplate Gothic Light', georgia, serif; 
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+	/*padding: 0 0 20px 0;*/
+}
+
+.box-col .box-title img {
+	display:inline-block;
+	vertical-align: middle;
+	height: 30px;
+	padding: 0 0 0 5px;
+}
+
+.box-col .box-col-textbox {
+	/*height: 100%;*/
+	top: 45px;
+	position: absolute;
+	bottom: 0;
+	
+	font-family: 'Copperplate Gothic Light', georgia, serif; 
+	font-size: 0.75em;
+	line-height: 1.3em;
+	padding: 20px;
+	text-align: left;
+	color: #555555;
+	background-color: #fccadc;
+	/* horizon vertic blur spread color*/
+	-webkit-box-shadow: -5px 5px 7px 2px rgba(51,51,51,1);
+	-moz-box-shadow: -5px 5px 7px 2px rgba(51,51,51,1);
+	box-shadow: -5px 5px 7px 2px rgba(51,51,51,1);
+}
+
+.box-col .box-col-textbox p {
+	padding: 0 0 20px 0;
+}
+
+.navigation-prev,
+.navigation-next {
+	font-family: "Helvetica Neue Black", helvetica, arial, sans-serif;
+	font-weight: bold;
+	position: absolute;
+	top: 45%;
+	z-index: 100;
+}
+
+.navigation-prev { left: 0; }
+
+.navigation-next { right: 0; }

@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+
+/*
+Internet Explorer 9+, Firefox, Chrome, Safari, and Opera support the WOFF (Web Open Font Format) font.
+Firefox, Chrome, Safari, and Opera support fonts of type TTF (True Type Fonts) and OTF (OpenType Fonts).
+Internet Explorer also supports EOT (Embedded OpenType) fonts.
+*/
+
+
+@font-face {
+	font-family: 'Helvetica Neue Light';
+	src: url('/fonts/HelveticaNeueLight.eot');
+	src: local('☺'), url('/fonts/HelveticaNeueLight.woff') format('woff'), url('/fonts/HelveticaNeueLight.ttf') format('truetype'), url('/fonts/HelveticaNeueLight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica Neue Black';
+	src: url('/fonts/HelveticaNeueBlack.eot');
+	src: local('☺'), url('/fonts/HelveticaNeueBlack.woff') format('woff'), url('/fonts/HelveticaNeueBlack.ttf') format('truetype'), url('/fonts/HelveticaNeueBlack.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Copperplate Gothic Light';
+	src: url('fonts/CopperplateGothicLight.eot');
+	src: local('☺'), url('/fonts/CopperplateGothicLight.woff') format('woff'), url('/fonts/CopperplateGothicLight.ttf') format('truetype'), url('/fonts/CopperplateGothicLight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -1,0 +1,92 @@
+html,body {
+	height: 100%;
+}
+
+#wrapper {
+	min-height: 98%;
+	min-width: 800px;
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+
+/*  SECTIONS  */
+.section,
+.menu {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/*  COLUMN SETUP  */
+.col {
+	display: inline-block;
+	/*float: left;*/
+	margin: 5px 0 5px 5px;
+}
+
+.group {
+	zoom: 1; /* For IE 6/7 */
+}
+
+.span_1_of_3 {
+	width: 32.2%;
+	width: 360px;
+	/*height: 350px;*/
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+	margin: auto;
+	/*width: 1260px;*/
+	/*width: auto;*/
+	max-width: 1240px;
+	width: 100%;
+}
+
+* html #container { /*max-width: 1240px;  max-width IE hack */
+	width: expression(this.scrollWidth >   1239 ?   "1240px" :   "auto");
+}
+
+
+#header {
+	/*padding: 10px 0 0;
+	height: 30px;
+	position: relative;*/
+	padding: 10px 0 0;
+    position: absolute;
+    width: 100%;
+    top: 0; 
+    left: 0;
+}
+
+#main {
+	padding: 40px 0 30px; 
+	/*overflow: auto;*/
+	overflow: hidden;
+	/*width: 100%;*/
+}
+
+#home-page #main,
+#error-404 #main {
+	padding-top: 10%;
+}
+
+#menu-page #main {
+	padding: 60px 60px 40px;
+}
+
+#text-page #main {
+	padding: 40px 0 0;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px; /* Height of the footer */
+	/*border-top: 1px solid #DDDDDD;*/
+	/*z-index: -1;*/
+}

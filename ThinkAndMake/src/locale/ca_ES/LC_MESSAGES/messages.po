@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: think&make\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-31 01:37+0100\n"
+"PO-Revision-Date: 2014-04-03 15:44+0100\n"
+"Last-Translator: Alex <ondissenyweb@gmail.com>\n"
+"Language-Team: On Disseny Web <ondissenyweb@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Catalan\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _;gettext\n"
+"X-Poedit-Basepath: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/include/locale\n"
+"X-Poedit-SearchPath-0: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/web\n"
+"X-Poedit-SearchPath-1: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src\n"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/index.php:3
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/menu.php:3
+msgid "seo_home_title"
+msgstr "Consultoria i comunicació integral per a empreses del sector públic"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/index.php:4
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/menu.php:4
+msgid "seo_home_desc"
+msgstr "think & make - Empresa dedicada a la consultoria i comunicació integral per a empreses del sector públic. Professionals amb àmplia experiència en tots els àmbits i disciplines de les administracions públiques de governs, institucions, ajuntaments, ciutats, municipis"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/index.php:5
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/menu.php:5
+msgid "seo_home_words"
+msgstr "consultoria, comunicació, assessorament, sector públic, administracions, institucions, ajuntaments, governs"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/menu.php:17
+msgid "un concepto"
+msgstr "un concepte"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/menu.php:18
+msgid "diferente"
+msgstr "diferent"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/menu.php:23
+msgid "qué"
+msgstr "què"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/menu.php:24
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/menu.php:30
+msgid "somos"
+msgstr "som"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/menu.php:29
+msgid "quiénes"
+msgstr "qui"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/menu.php:37
+msgid "construir imagen"
+msgstr "construir imatge"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/menu.php:38
+msgid "nuestra razón de ser"
+msgstr ""
+"la nostra raó\n"
+"de ser"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/menu.php:43
+msgid "trabajos"
+msgstr "treballs"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/menu.php:48
+msgid "contacto"
+msgstr "contacte"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/error404.php:3
+msgid "seo_404_title"
+msgstr "Consultoria i comunicació integral per a empreses del sector públic. Pàgina d'error"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/error404.php:4
+#, fuzzy
+msgid "seo_404_desc"
+msgstr "think & make - Empresa dedicada a la consultoria i comunicació integral per a empreses del sector públic. Professionals amb àmplia experiència en tots els àmbits i disciplines de les administracions públiques de governs, institucions, ajuntaments, ciutats, municipis"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/error404.php:5
+#, fuzzy
+msgid "seo_404_words"
+msgstr "consultoria, comunicació, assessorament, sector públic, administracions, institucions, ajuntaments, governs"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/error404.php:14
+msgid "Disculpa las molestias"
+msgstr "Disculpa les molèsties"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/error404.php:15
+msgid "page not found"
+msgstr "pàgina no trobada"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/error404.php:16
+#, php-format
+msgid "No se ha encontrado la página %s."
+msgstr ""
+"No s'ha trobat la pàgina\n"
+"%s"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/error404.php:17
+msgid "inicio >"
+msgstr "inici >"
+
+#~ msgid "1-un-concepto-diferente"
+#~ msgstr "1-un-concepte-diferent"
+
+#~ msgid "2-que-somos"
+#~ msgstr "2-que-som"
+
+#~ msgid "3-quienes-somos"
+#~ msgstr "3-qui-som"
+
+#~ msgid "4-nuestra-razon-de-ser"
+#~ msgstr "4-la-nostra-rao-de-ser"
+
+#~ msgid "5-trabajos"
+#~ msgstr "5-projectes"
+
+#~ msgid "6-contacto"
+#~ msgstr "6-contacte"
