@@ -128,13 +128,18 @@ Examples
 
 	#image-page .outer-cell {
 		padding: 0 0 70px;
-    	border-radius: 50%;	
+    	/*border-radius: 50%;*/	
+    	border-radius: 215px;
     	padding: 2px;
 	}
 	
 	#image-page .outer-cell img {
 	    padding: 3px 0 0;
     }
+	
+	.inside-cell {
+		border-radius: 175px;
+	}
 	
 	.text-cell {
     	padding: 30px 30px 0;
@@ -195,7 +200,8 @@ Examples
 	
 	.navigation-prev, .navigation-next {
 	    background-color: #FFFFFF;
-	    border-radius: 50%;
+	    /*border-radius: 50%; No funcionen % Android*/
+	    border-radius: 12px;
 	    height: 25px;
 	    width: 25px;
 	    top: inherit;

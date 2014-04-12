@@ -1,7 +1,9 @@
 <IfModule mod_rewrite.c>
-    RewriteEngine On
-	
 	RewriteEngine On
+	#RewriteBase /thinkandmake/web/
+	#RewriteCond %{HTTP_HOST} ^s317722982.mialojamiento.es/thinkandmake/web
+	#RewriteRule (.*) http://s317722982.mialojamiento.es/thinkandmake/web/$1 [R=301,L]
+	# thinkandmake.ondissenyweb.com
 	RewriteCond %{HTTP_HOST} ^thinkandmake.dev
 	RewriteRule (.*) http://www.thinkandmake.dev/$1 [R=301,L]
 

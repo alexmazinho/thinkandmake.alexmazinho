@@ -109,8 +109,8 @@ Class menuController Extends baseController {
 									"<b>campañas políticas</b>: generales psoe y municipales de españa,\n".
 									"zp, pasqual maragall, joan clos, jose montilla, corbacho, núria marín, núria parlon,\n".
 									"joaquim balsera, jordi hereu, marta farrés, toni rebolleda, xavi paz...\n".
-									"<b>empresas privadas</b>: nestlé, bbva, la caixa, estrella damm, audi, volkswagen, rcd espanyol,\n".
-									"grupo planeta, sorli discau, servihabitat, tve, la vanguardia, el periódico,\n".
+									"<b>empresas privadas</b>: nestlé, bbva, la caixa, estrella damm, audi, volkswagen,\n".
+									"rcd espanyol, grupo planeta, sorli discau, servihabitat, tve, la vanguardia, el periódico,\n".
 									"font vella, sony, knorr, miko, jamaica, borges, l’aquarium, meliá, unno, smint, cirsa,\n".
 									"rba, lanjaron, bosch, siemens, lizipaina...");
 				$contentList[] = _("agencia alicia. socio fundador.");

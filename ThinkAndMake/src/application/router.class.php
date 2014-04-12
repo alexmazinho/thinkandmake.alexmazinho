@@ -99,7 +99,7 @@ class router {
 		$route = (empty($_GET['route'])) ? '' : $_GET['route'];
 
 		$this->registry->page = -1;
- 		
+		
 		if (empty($route)) {
 			$route = 'index';
 		} else {
@@ -125,7 +125,7 @@ class router {
 		}
 		
 		$this->registry->route = $route; // Deso la ruta
-
+		
 		
 		if (empty($this->controller)) {
 			$this->controller = 'index';
