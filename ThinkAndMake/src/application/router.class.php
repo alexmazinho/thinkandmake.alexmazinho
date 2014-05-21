@@ -119,8 +119,7 @@ class router {
 				$this->controller = $urlInfo['controller'];
 				$this->action = $urlInfo['action'];
 				$this->registry->page = $urlInfo['page'];
-				
-				$this->registry->seo = $urlInfo['seo']; // Info SEO per la plantilla 				
+				$this->registry->seo = $urlInfo['seo']; // Info SEO per la plantilla 	
 			}
 		}
 		

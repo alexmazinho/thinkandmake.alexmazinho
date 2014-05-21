@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: think&make\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-05 02:12+0100\n"
-"PO-Revision-Date: 2014-04-05 02:43+0100\n"
+"POT-Creation-Date: 2014-05-21 09:30+0100\n"
+"PO-Revision-Date: 2014-05-21 11:02+0100\n"
 "Last-Translator: Alex <ondissenyweb@gmail.com>\n"
 "Language-Team: On Disseny Web <ondissenyweb@gmail.com>\n"
 "Language: \n"
@@ -39,15 +39,144 @@ msgstr "consultoría, comunicación, asesoramiento, sector público, administrac
 
 #: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:43
 msgid "seo-un-concepto-diferente-title"
-msgstr "Soluciones para la comunicación integral de gobiernos y ciudades"
+msgstr "Soluciones para la comunicación integral de gobiernos, ciudades y administraciones públicas"
 
 #: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:44
 msgid "seo-un-concepto-diferente-desc"
-msgstr "think&make presta una atención integral y ofrece compromiso a clientes, soluciones efectivas, innovadoras y económicas. dilatada experiencia en el sector público"
+msgstr "think&make presta una atención integral y ofrece compromiso a clientes, soluciones efectivas, innovadoras y económicas. Dilatada experiencia en el sector público"
 
 #: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:45
 msgid "seo-un-concepto-diferente-words"
-msgstr "solución, integral, innovación, creatividad, filosofía corporativa, experiencia, administración, sector público"
+msgstr "solución, integral, innovación, orientación, creatividad, filosofía, professional, corporativa, experiencia, administración, sector, público,  gobierno, ayuntamiento, institución, ciudad"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:46
+msgid "seo-que-somos-title"
+msgstr "Especialistas en estrategia e innovación en los procesos de comunicación pública"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:47
+msgid "seo-que-somos-desc"
+msgstr "think&make somos especialistas en desarrollar conceptos y definir estrategias para mejorar la comunicación pública de governantes y candidatos en cualquier de los ámbitos y disciplinas de las administraciones públicas de gobiernos, instituciones, ayuntamientos, ciudades, municipios"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:48
+msgid "seo-que-somos-words"
+msgstr "especialista, concepto, estrategia, comunicación, innovación, modelo, mecanismo, proceso, mejorar, resultado, mercado, organización, éxito, sector, público, administración, gobierno, ayuntamiento, institución, ciudad"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:49
+msgid "seo-quienes-somos-title"
+msgstr "Expertos en comunicación y marketing estratégico para empresas privadas y organizaciones gubernamentales"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:50
+msgid "seo-quienes-somos-desc"
+msgstr "think & make es una compañia fundada  por expertos consultores en comunicación y márqueting especializados en desarrollar estratégias de campañas, investigación de mercados, diseño corporativo, definición de marca, tecnologías de la información y gestión de la reputación para empresas privadas y organizaciones gubernamentales "
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:51
+msgid "seo-quienes-somos-words"
+msgstr "consultoría, comunicación, marketing, especialista, estrategia, investigación, mercado, publicidad, campaña, diseño, marca, reputación, imagen, experto, empresa, privada, organización, gobierno, ciudad"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:52
+msgid "seo-joaquim-balsera-title"
+msgstr "Joaquim Balsera, Fundador y consultor. Especialista en imagen y comunicación públicas"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:53
+msgid "seo-joaquim-balsera-desc"
+msgstr "Joaquim Balsera es socio fundador de think & make, consultor y especialista en imagen y comunicación públicas. Formación superior en función gerencial y administración pública. Director jefe de gabinetes de varios alcaldes de ciudades: Hospitalet y Barcelona, y alcalde de Gavá "
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:54
+msgid "seo-joaquim-balsera-words"
+msgstr "joaquim, balsera, socio, fundador, consultor, especialista, imagen, comunicación, pública, administración, director, jefe, gabinete, alcalde, ciudad, hospitalet,  barcelona, gava"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:55
+msgid "seo-fernando-macia-title"
+msgstr "Fernando Macia, publicista y experto en comunicación. Socio fundador de la agencia de publicidad Alicia de Barcelona"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:56
+msgid "seo-fernando-macia-desc"
+msgstr "Fernando Macia, publicista i expert en comunicació, soci, fundador i director creatiu d'agència de publicitat Alícia de Barcelona. Curriculum director creatiu en Tàndem DDB amb més de 600 premis internacionals. Campanyes per a clients d'institucions públiques alcaldes, ministeris i ajuntaments, campanyes polítiques i empreses privades."
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:57
+msgid "seo-fernando-macia-words"
+msgstr "publicidad, comunicación, experto, socio, fundador, director, creativo, agencia, administración, pública, ayuntamiento, campaña, sector, empresa, privado"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:58
+msgid "seo-nuestra-razon-de-ser-title"
+msgstr "Construcción de la imagen de marca de la ciudad y gestión integral de las estrategias de comunicación"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:59
+msgid "seo-nuestra-razon-de-ser-desc"
+msgstr "Construcción de la imagen de marca de la ciudad para consolidar y mejorar valoración ciudadana, consolidar las acciones de los gobiernos y dinamizar la economía. Gestión integral de las estrategias de comunicación pública y política, campañas electorales, imagen corporativa, eventos, marketing directo y gestión de la reputación integrando nuevas tecnologías y redes sociales "
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:60
+msgid "seo-nuestra-razon-de-ser-words"
+msgstr "construcción, imagen, marca, consolidar, mejorar, gestión, integral, estrategias, comunicación, marketing, reputación, tecnologías, redes, sociales"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:61
+msgid "seo-marca-de-ciudad-title"
+msgstr "Construcción de la imagen de marca de la ciudad y gestión integral de las estrategias de comunicación"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:62
+msgid "seo-marca-de-ciudad-desc"
+msgstr "Construcción de la imagen de marca de la ciudad para consolidar y mejorar valoración ciudadana, consolidar las acciones de los gobiernos y dinamizar la economía. Gestión integral de las estrategias de comunicación"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:63
+msgid "seo-marca-de-ciudad-words"
+msgstr "construcción, imagen, marca, consolidar, mejorar, gestión, integral, estrategias, comunicación, marketing"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:64
+#, fuzzy
+msgid "seo-trabajos-title"
+msgstr "Consultoría y comunicación integral para empresas del sector público"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:65
+#, fuzzy
+msgid "seo-trabajos-desc"
+msgstr "think&make - Empresa dedicada a la consultoría y comunicación integral para empresas del sector público.  Professionales con amplia experiencia en todos los ámbitos y disciplinas de las administraciones públicas de gobiernos, instituciones, ayuntamientos, ciudades, municipios"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:66
+#, fuzzy
+msgid "seo-trabajos-words"
+msgstr "consultoría, comunicación, asesoramiento, sector público, administraciones, instituciones, ayuntamientos, gobiernos"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:67
+#, fuzzy
+msgid "seo-proyectos-title"
+msgstr "Consultoría y comunicación integral para empresas del sector público"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:68
+#, fuzzy
+msgid "seo-proyectos-desc"
+msgstr "think&make - Empresa dedicada a la consultoría y comunicación integral para empresas del sector público.  Professionales con amplia experiencia en todos los ámbitos y disciplinas de las administraciones públicas de gobiernos, instituciones, ayuntamientos, ciudades, municipios"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:69
+#, fuzzy
+msgid "seo-proyectos-words"
+msgstr "consultoría, comunicación, asesoramiento, sector público, administraciones, instituciones, ayuntamientos, gobiernos"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:70
+msgid "seo-contacto-title"
+msgstr "Consultoría y comunicación integral para empresas del sector público. Información de contacto"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:71
+msgid "seo-contacto-desc"
+msgstr "Página de información de contacto de think&make, empresa dedicada a la consultoría y comunicación integral para empresas del sector público."
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:72
+msgid "seo-contacto-words"
+msgstr "contacto, información, consultoría, comunicación, asesoramiento, sector público, administraciones, instituciones, ayuntamientos, gobiernos"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:73
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/error404.php:3
+msgid "seo-404-title"
+msgstr "Consultoría y comunicación integral para empresas del sector público. Página no trobada"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:74
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/error404.php:4
+msgid "seo-404-desc"
+msgstr "La página indicada no se encuentra disponible"
+
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/application/language.class.php:75
+#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/error404.php:5
+msgid "seo-404-words"
+msgstr "página, error, 404"
 
 #: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/controller/menuController.php:21
 #: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/menu.php:11
@@ -306,8 +435,8 @@ msgid ""
 "<b>campañas políticas</b>: generales psoe y municipales de españa,\n"
 "zp, pasqual maragall, joan clos, jose montilla, corbacho, núria marín, núria parlon,\n"
 "joaquim balsera, jordi hereu, marta farrés, toni rebolleda, xavi paz...\n"
-"<b>empresas privadas</b>: nestlé, bbva, la caixa, estrella damm, audi, volkswagen, rcd espanyol,\n"
-"grupo planeta, sorli discau, servihabitat, tve, la vanguardia, el periódico,\n"
+"<b>empresas privadas</b>: nestlé, bbva, la caixa, estrella damm, audi, volkswagen,\n"
+"rcd espanyol, grupo planeta, sorli discau, servihabitat, tve, la vanguardia, el periódico,\n"
 "font vella, sony, knorr, miko, jamaica, borges, l’aquarium, meliá, unno, smint, cirsa,\n"
 "rba, lanjaron, bosch, siemens, lizipaina..."
 msgstr ""
@@ -535,18 +664,6 @@ msgstr "trabajos"
 msgid "contacto"
 msgstr "contacto"
 
-#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/error404.php:3
-msgid "seo_404_title"
-msgstr "Consultoría y comunicación integral para empresas del sector público. Página de error"
-
-#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/error404.php:4
-msgid "seo_404_desc"
-msgstr "think&make - Empresa dedicada a la consultoría y comunicación integral para empresas del sector público.  La página indicada no se encuentra disponible"
-
-#: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/error404.php:5
-msgid "seo_404_words"
-msgstr "consultoría, comunicación, asesoramiento, sector público, administraciones, instituciones, ayuntamientos, gobiernos"
-
 #: /home/alex/git/thinkandmake.alexmazinho/ThinkAndMake/src/views/error404.php:14
 msgid "Disculpa las molestias"
 msgstr "Disculpa las molestias"
@@ -584,12 +701,3 @@ msgstr "inicio >"
 
 #~ msgid "2-que-somos"
 #~ msgstr "2-que-somos"
-
-#~ msgid "3-quienes-somos"
-#~ msgstr "3-quienes-somos"
-
-#~ msgid "4-nuestra-razon-de-ser"
-#~ msgstr "4-nuestra-razon-de-ser"
-
-#~ msgid "6-contacto"
-#~ msgstr "6-contacto"

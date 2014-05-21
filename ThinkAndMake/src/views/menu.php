@@ -31,7 +31,7 @@
 					</a>
 				</div>
 				<div class="col span_1_of_3">
-					<a class="inside-cell" href="<?php echo __SITE_URL.'/'.Language::getUrlTranslation('trabajos', $lang); ?>">
+					<a class="inside-cell" href="<?php echo __SITE_URL.'/'.Language::getUrlTranslation('marca-de-ciudad', $lang); ?>">
 						<span class="cell-text title-featured"><?php echo _("trabajos");?></span>
 					</a>
 				</div>

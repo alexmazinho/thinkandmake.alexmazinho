@@ -36,6 +36,15 @@ Class Registry {
 	public function __get($index) {
 		return $this->vars[$index];
 	}
+	
+	/**
+	 * @isset key exist
+	 * @param mixed $index
+	 * @return mixed
+	 */
+	public function __isset($index){
+		return isset($this->vars[$index]);
+	}
 }
 
 ?>

@@ -82,6 +82,7 @@ p, ul, li { line-height: 1.3em; font-family: 'Copperplate Gothic Light', georgia
 	opacity:1;
 	transition: opacity 2s;
 	-moz-transition: opacity 2s;
+	-o-transition: opacity 2s;
 	-webkit-transition: opacity 2s; Safari
 } */
 
@@ -120,6 +121,7 @@ p, ul, li { line-height: 1.3em; font-family: 'Copperplate Gothic Light', georgia
 	color: #888888;
 	transition: color .30s ease-in-out;
    	-moz-transition: color .30s ease-in-out;
+   	-o-transition: color .30s ease-in-out;
    	-webkit-transition: color .30s ease-in-out;
 }
 
@@ -175,6 +177,7 @@ p, ul, li { line-height: 1.3em; font-family: 'Copperplate Gothic Light', georgia
     max-height: 350px;
 	background-color: #B2B2B2;
 	transition: background .30s ease-in-out;
+	-o-transition: background .30s ease-in-out;
    	-moz-transition: background .30s ease-in-out;
    	-webkit-transition: background .30s ease-in-out;
 	border-radius: 50%;
@@ -208,6 +211,7 @@ p, ul, li { line-height: 1.3em; font-family: 'Copperplate Gothic Light', georgia
 	background-color: #960b26;
 	transition: background .30s ease-in-out;
    	-moz-transition: background .30s ease-in-out;
+   	-o-transition: background .30s ease-in-out;
    	-webkit-transition: background .30s ease-in-out;
 	
 	color: #ffffff;
@@ -288,6 +292,20 @@ ul.text-content {
 ul.text-content li {
 	padding: 0 0 15px;
 	white-space: nowrap;
+}
+
+ul.text-content li a { 
+	line-height: 1.3em; 
+	font-family: 'Copperplate Gothic Light', georgia, serif;  
+	color: #0000ee; 
+	transition: color .30s ease-in-out;
+   	-moz-transition: color .30s ease-in-out;
+   	-o-transition: color .30s ease-in-out;
+   	-webkit-transition: color .30s ease-in-out;
+}
+
+ul.text-content li a:hover {
+	color: #ffffff;
 }
 
 #image-page .outer-cell img {

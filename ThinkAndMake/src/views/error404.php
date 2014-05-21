@@ -1,8 +1,8 @@
 <?php
 	
-	$seo['title'] = _("seo_404_title");
-	$seo['desc'] = _("seo_404_desc");
-	$seo['words'] = _("seo_404_words");
+	$seo['title'] = _("seo-404-title");
+	$seo['desc'] = _("seo-404-desc");
+	$seo['words'] = _("seo-404-words");
 	
 	include_once( 'head.inc.php' );
 ?>

@@ -43,6 +43,15 @@ Class Template {
 		$this->vars[$index] = $value;
 	}
 
+	/**
+	 * @isset key exist
+	 * @param mixed $index
+	 * @return mixed
+	 */
+	public function __isset($index){
+		return isset($this->vars[$index]);
+	}
+	
 	function show($name) {
 		$path = __SRC_PATH . '/views' . '/' . $name . '.php';
 

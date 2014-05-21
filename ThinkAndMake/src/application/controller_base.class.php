@@ -21,6 +21,7 @@ Abstract Class baseController {
 		$this->registry->template->lang = $this->registry->currentLanguage;
 		$this->registry->template->showLogo = true;
 		$this->registry->template->route = $this->registry->route;
+		
 		if (isset($this->registry->seo)) $this->registry->template->seo = $this->registry->seo;
 		else $this->registry->template->seo = Language::$seoDefault;
 		

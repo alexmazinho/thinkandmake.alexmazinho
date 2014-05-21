@@ -43,7 +43,36 @@ class Language {
 		_('seo-un-concepto-diferente-title');
 		_('seo-un-concepto-diferente-desc');
 		_('seo-un-concepto-diferente-words');
-		
+		_('seo-que-somos-title');
+		_('seo-que-somos-desc');
+		_('seo-que-somos-words');
+		_('seo-quienes-somos-title');
+		_('seo-quienes-somos-desc');
+		_('seo-quienes-somos-words');
+		_('seo-joaquim-balsera-title');
+		_('seo-joaquim-balsera-desc');
+		_('seo-joaquim-balsera-words');
+		_('seo-fernando-macia-title');
+		_('seo-fernando-macia-desc');
+		_('seo-fernando-macia-words');
+		_('seo-nuestra-razon-de-ser-title');
+		_('seo-nuestra-razon-de-ser-desc');
+		_('seo-nuestra-razon-de-ser-words');
+		_('seo-marca-de-ciudad-title');
+		_('seo-marca-de-ciudad-desc');
+		_('seo-marca-de-ciudad-words');
+		/*_('seo-trabajos-title');
+		_('seo-trabajos-desc');
+		_('seo-trabajos-words');
+		_('seo-proyectos-title');
+		_('seo-proyectos-desc');
+		_('seo-proyectos-words');*/
+		_('seo-contacto-title');
+		_('seo-contacto-desc');
+		_('seo-contacto-words');
+		_('seo-404-title');
+		_('seo-404-desc');
+		_('seo-404-words');
 	}
 	
 	
@@ -63,73 +92,73 @@ class Language {
 			'que-somos' 			=> array('controller' => 'menu', 'action' => 'text', 'page' => 1,
 											 'es' => 'que-somos', 
 											 'ca' => 'que-som',
-											 'seo' => array('title' => '',
-															 'desc' => '',
-															 'words' => '',
+											 'seo' => array('title' => 'seo-que-somos-title',
+															 'desc' => 'seo-que-somos-desc',
+															 'words' => 'seo-que-somos-words',
 											  )
 											 ),
 			'quienes-somos' 		=> array('controller' => 'menu', 'action' => 'text', 'page' => 2,
 											 'es' => 'quienes-somos', 
 											 'ca' => 'qui-som',
-											 'seo' => array('title' => '',
-															 'desc' => '',
-															 'words' => '',
+											 'seo' => array('title' => 'seo-quienes-somos-title',
+															 'desc' => 'seo-quienes-somos-desc',
+															 'words' => 'seo-quienes-somos-words',
 											  )
 											 ),
 			'joaquim-balsera' 		=> array('controller' => 'menu', 'action' => 'text', 'page' => 3,
 											 'es' => 'joaquim-balsera', 
 											 'ca' => 'joaquim-balsera',
-											 'seo' => array('title' => '',
-															 'desc' => '',
-															 'words' => '',
+											 'seo' => array('title' => 'seo-joaquim-balsera-title',
+															 'desc' => 'seo-joaquim-balsera-desc',
+															 'words' => 'seo-joaquim-balsera-words',
 											  )
 											 ),
 			'fernando-macia' 		=> array('controller' => 'menu', 'action' => 'text', 'page' => 4,
 											 'es' => 'fernando-macia',
 											 'ca' => 'fernando-macia',
-											 'seo' => array('title' => '',
-															 'desc' => '',
-															 'words' => '',
+											 'seo' => array('title' => 'seo-fernando-macia-title',
+															 'desc' => 'seo-fernando-macia-desc',
+															 'words' => 'seo-fernando-macia-words',
 											  )
 											 ),
 			'nuestra-razon-de-ser' 	=> array('controller' => 'menu', 'action' => 'text', 'page' => 5,	
 											 'es' => 'nuestra-razon-de-ser', 
 											 'ca' => 'la-nostra-rao-de-ser',
-											 'seo' => array('title' => '',
-															 'desc' => '',
-															 'words' => '',
+											 'seo' => array('title' => 'seo-nuestra-razon-de-ser-title',
+															 'desc' => 'seo-nuestra-razon-de-ser-desc',
+															 'words' => 'seo-nuestra-razon-de-ser-words',
 											  )
 											 ),
 			'marca-de-ciudad' 		=> array('controller' => 'menu', 'action' => 'textbox', 'page' => 6,	
 											 'es' => 'marca-de-ciudad', 
 											 'ca' => 'marca-de-ciutat',
-											 'seo' => array('title' => '',
-															 'desc' => '',
-															 'words' => '',
+											 'seo' => array('title' => 'seo-marca-de-ciudad-title',
+															 'desc' => 'seo-marca-de-ciudad-desc',
+															 'words' => 'seo-marca-de-ciudad-words',
 											  )
 											 ),
-			'trabajos' 				=> array('controller' => 'menu', 'action' => 'image', 'page' => 7,
+			/*'trabajos' 				=> array('controller' => 'menu', 'action' => 'image', 'page' => 7,
 											 'es' => 'trabajos',
 									 		 'ca' => 'treballs',
-											 'seo' => array('title' => '',
-															 'desc' => '',
-															 'words' => '',
+											 'seo' => array('title' => 'seo-trabajos-title',
+															 'desc' => 'seo-trabajos-desc',
+															 'words' => 'seo-trabajos-words',
 											  )
 											 ),
 			'proyectos' 			=> array('controller' => 'menu', 'action' => 'image', 'page' => 8,
 											 'es' => 'proyectos',
 											 'ca' => 'projectes',
-											 'seo' => array('title' => '',
-															 'desc' => '',
-															 'words' => '',
+											 'seo' => array('title' => 'seo-proyectos-title',
+															 'desc' => 'seo-proyectos-desc',
+															 'words' => 'seo-proyectos-words',
 											  )
-											 ),
-			'contacto' 				=> array('controller' => 'menu', 'action' => 'contact', 'page' => 9,
+											 ),*/
+			'contacto' 				=> array('controller' => 'menu', 'action' => 'contact', 'page' => 7,
 											 'es' => 'contacto',
 							 				 'ca' => 'contacte',
-											 'seo' => array('title' => '',
-															 'desc' => '',
-															 'words' => '',
+											 'seo' => array('title' => 'seo-contacto-title',
+															 'desc' => 'seo-contacto-desc',
+															 'words' => 'seo-contacto-words',
 											  )
 											 ),
 			);

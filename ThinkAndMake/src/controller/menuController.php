@@ -74,8 +74,8 @@ Class menuController Extends baseController {
 				
 				break;
 			case 3:  // joaquim-balsera
-				$this->registry->template->contentTitlePart1 = _("joaquim");
-				$this->registry->template->contentTitlePart2 = _("balsera");
+				$this->registry->template->contentTitlePart1 = "joaquim";
+				$this->registry->template->contentTitlePart2 = "balsera";
 				
 				$contentList[] = _("ub-uoc");
 				$contentList[] = _("estudios de derecho");
@@ -90,11 +90,12 @@ Class menuController Extends baseController {
 				$contentList[] = _("president consell comarcal del baix llobregat");
 				$contentList[] = _("socio fundador de think and make");
 				$contentList[] = _("socio fundador de smart institutional solutions");
+				$contentList[] = "<a href='mailto:jbalsera@thinkandmake.es' >jbalsera@thinkandmake.es</a>";
 				
 				break;
 			case 4:  // frenando-macia
-				$this->registry->template->contentTitlePart1 = _("fernando");
-				$this->registry->template->contentTitlePart2 = _("macia");
+				$this->registry->template->contentTitlePart1 = "fernando";
+				$this->registry->template->contentTitlePart2 = "macia";
 				
 				$contentList[] = _("publicista");
 				$contentList[] = _("tandem ddb, director general creativo. miembro del comité de dirección del grupo\n".
@@ -113,7 +114,7 @@ Class menuController Extends baseController {
 									"rcd espanyol, grupo planeta, sorli discau, servihabitat, tve, la vanguardia, el periódico,\n".
 									"font vella, sony, knorr, miko, jamaica, borges, l’aquarium, meliá, unno, smint, cirsa,\n".
 									"rba, lanjaron, bosch, siemens, lizipaina...");
-				$contentList[] = _("agencia alicia. socio fundador.");
+				$contentList[] = _("agencia alicia. socio fundador. <a href='http://www.agenciaalicia.com' >http://www.agenciaalicia.com</a>");
 				$contentList[] = _("director de arte. revistas de moda, periódicos, libros, etc.");
 				$contentList[] = _("exprofesor creatividad en la upf.");
 				
@@ -241,11 +242,9 @@ Class menuController Extends baseController {
 		$urlInfo = Language::getUrlInfoByPage($this->registry->page-1);
 		if (isset($urlInfo[$this->registry->currentLanguage])) $this->registry->template->urlPrev = $urlInfo[$this->registry->currentLanguage];
 		if (isset($urlInfo['seo']['title'])) $this->registry->template->urlPrevTitle = _($urlInfo['seo']['title']);
-			
 		$urlInfo = Language::getUrlInfoByPage($this->registry->page+1);
 		if (isset($urlInfo[$this->registry->currentLanguage])) $this->registry->template->urlNext = $urlInfo[$this->registry->currentLanguage];
 		if (isset($urlInfo['seo']['title'])) $this->registry->template->urlNextTitle = _($urlInfo['seo']['title']);
 	}
 }
-
 ?>
